@@ -1,0 +1,48 @@
+body{
+    background-color: #312938;
+    margin: 0px;
+}
+nav{
+    background-color: #312938;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    width: auto;
+}
+#retrolines{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    width: auto;
+}
+#retrolines div{
+    height: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+nav button{
+    background-color: #454475;
+    height: 50px;
+    width: 175px;
+    border: none;
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+    position: relative;
+    display: inline-block;
+}
+.dropdown{
+    background-color: white;
+    display: none;
+    position: absolute;
+    width: 175px;
+    translate: -6px 17px;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    height: 35px;
+    line-height: 35px;
+    text-decoration: none;
+}
+.dropdown a:hover{background-color: lightgray;}
+nav button:hover{cursor: pointer;}
+nav button:hover .dropdown{display: block;}
